@@ -1,0 +1,14 @@
+@import '../../assets/css/vars.scss';
+
+footer {
+  background-color: $blue;
+  color: white;
+  padding: .8rem;
+  font-size: 1rem;
+  text-align: center;
+  p {
+    span {
+      text-decoration: underline;
+    }
+  }
+}

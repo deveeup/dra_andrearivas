@@ -1,0 +1,36 @@
+.services {
+  h3 {
+    font-family: 'Dklemon';
+    text-align: center;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  .services-items {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+  
+    a {
+      text-decoration: none;
+    }
+    
+    .items-item {
+      margin: .5rem;
+      padding: 0.5rem 0.8rem;
+      border-radius: 4px;
+      color: white;
+      min-width: 150px;
+      text-align: center;
+      p {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
