@@ -10,7 +10,7 @@ const profileComponent = () => (
     <div className="ProfileComponent-Info">
       <h2>Dra. Andrea Rivas</h2>
       <span>Médico Veterinario.</span>
-      <p>+7 Años de experiencia, espcializada en animales domésticos como perros y gatos.</p>
+      <p>+7 Años de experiencia, espcializada en animales de compañia.</p>
     </div>
   </div>
 );
