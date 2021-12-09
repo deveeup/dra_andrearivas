@@ -1,3 +1,9 @@
 .Layout {
   min-height: 100vh;
+  &-whatsapp {
+    position: absolute;
+    bottom: 100px; 
+    right: 15px;
+    width: 60px;
+  }
 }
