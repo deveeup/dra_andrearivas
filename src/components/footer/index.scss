@@ -16,10 +16,24 @@ footer {
       text-decoration: underline;
     }
   }
-  .Contact-whatsapp {
+  .Contact {
     position: absolute;
-    bottom: 100px; 
-    right: 15px;
-    width: 60px;
+    display: flex;
+    flex-direction: column;
+    bottom: 60px;
+    right: 10px;
+    a {
+      transition: .5s;
+      &:active {
+        transform: scale(.8);
+      }
+    }
+    &-whatsapp {
+      width: 50px;
+    }
+    &-phone {
+      width: 50px;
+
+    }
   }
 }
