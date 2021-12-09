@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/layout/index';
 import Services from '../../components/services/index';
 import ProfileComponent from '../../components/profileInfo';
+import Schedule from '../../components/schedule';
 
 const items = [
   {
@@ -37,6 +38,7 @@ const items = [
 const Home = () => (
   <Layout>
     <ProfileComponent />
+    <Schedule />
     <Services items={items} />
   </Layout>
 );

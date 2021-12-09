@@ -1,0 +1,30 @@
+@import '../../assets/css/vars.scss';
+
+.Schedule {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 30px;
+  span {
+    font-family: 'Dklemon';
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  button {
+    background-color: $purple;
+    border-radius: 25px;
+    border: none;
+    padding: 5px 0;
+    font-family: 'Dklemon';
+    font-size: 1.8rem;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
