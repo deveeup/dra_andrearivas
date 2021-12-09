@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../../components/layout/index';
-import Services from '../../components/services/index';
+/* import Services from '../../components/services/index'; */
 import ProfileComponent from '../../components/profileInfo';
 import Schedule from '../../components/schedule';
 
-const items = [
+/* const items = [
   {
     id: 1,
     type: '',
@@ -33,13 +33,13 @@ const items = [
     url: '/about',
     title: 'Emergencia'
   },
-]
+]; */
 
 const Home = () => (
   <Layout>
     <ProfileComponent />
     <Schedule />
-    <Services items={items} />
+    {/* <Services items={items} /> */}
   </Layout>
 );
 

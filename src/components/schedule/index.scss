@@ -3,13 +3,13 @@
 .Schedule {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 15px;
   margin-top: 30px;
   span {
-    font-family: 'Dklemon';
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 10px;
   }
   p {
     font-size: 1rem;
@@ -22,9 +22,15 @@
     padding: 5px 0;
     font-family: 'Dklemon';
     font-size: 1.8rem;
+    transition: .5s;
     a {
       text-decoration: none;
       color: white;
+    }
+    &:active {
+      transform: scale(.9);
+      background-color: rgba($purple, 0.8);
+      user-select: none;
     }
   }
 }
