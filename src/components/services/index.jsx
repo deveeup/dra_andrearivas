@@ -8,7 +8,7 @@ const Services = ({ items }) => (
     <div className="services-items">
       {
         items.map(item => (
-          <Link to={item.url}>
+          <Link to={item.url} key={item.id}>
             <div className="items-item" style={{backgroundColor: item.background }}>
               <p>{item.title}</p>
             </div>
