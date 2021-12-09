@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 const Footer = () => (
   <footer>
     <p>
-      © Dra. Andrea Rivas {year} | <span>Médico Veterinario</span>
+      © Dra. Andrea Rivas {year}
     </p>
   </footer>
 );
